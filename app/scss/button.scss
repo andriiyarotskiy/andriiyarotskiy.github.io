@@ -1,0 +1,14 @@
+.button {
+  color: #282528;
+  border: 2px solid;
+  background: transparent;
+  padding: 10px 25px;
+  font-weight: 600;
+  transition: .5s;
+  img {
+    margin-right: 10px;
+  }
+  &:hover {
+    border-color: #fff;
+  }
+}

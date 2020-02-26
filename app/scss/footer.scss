@@ -1,0 +1,68 @@
+.footer {
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  h4 {
+    padding-bottom: 25px;
+    font-weight: bold;
+  }
+  .navbar-brand {
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+  .navbar-brand img {
+    margin-top: -20px;
+  }
+}
+  .wrapper_footer {
+    display: flex;
+    padding-top: 100px;
+    align-content: center;
+    justify-content: space-between;
+    .block_footer {
+      max-width: 30%;
+    }
+    .block_footer form {
+      padding-bottom: 20px;
+    }
+    .first_list, .second_list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .lists {
+      display: flex;
+    }
+    .lists li {
+      padding-bottom: 15px;
+    }
+      .second_list {
+        padding-left: 50px;
+        padding-right: 20px;
+      }
+  }
+  .block_footer:last-child {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    font-style: italic;
+  }
+
+/*Input*/
+input {
+  width: 90%;
+  height: 45px;
+  outline: none;
+  padding: 10px 15px;
+}
+.input-group-btn {
+  position: relative;
+}
+footer button {
+  position: absolute;
+  left: -45px;
+  top: -10px;
+  background: #fff;
+  border: none;
+}
+/*Input*/
