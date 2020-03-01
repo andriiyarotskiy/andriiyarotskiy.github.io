@@ -1,0 +1,117 @@
+@media (max-width: 768px) {
+    html
+        /*HEADER*/
+    .wrapper_header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .wrapper_header .menu ul a{
+        font-size: 10px;
+    }
+
+    .menu .box-list {
+        margin: 0;
+        order: 1;
+    }
+
+    .phone, .call_back, .logo {
+        order: -1;
+    }
+
+    .btn_text {
+        display: none;
+    }
+
+    .call_back {
+        margin: 0 0 10px 45px;
+    }
+
+    /*HEADER*/
+    /* CONTENT*/
+    .wrapper_content {
+        flex-direction: column;
+    }
+
+    .content .main_list {
+        width: 100%;
+    }
+
+    .main_search {
+        width: 100%;
+    }
+
+    .social_icons, .language, .my_cabinet {
+        display: none;
+    }
+
+    /* CONTENT*/
+    /* CAROUSEL*/
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* Делаем сайдбар на всю ширину экрана */
+    .left-side-list {
+        min-width: 760px;
+        text-align: center;
+    }
+    .right-side {
+        width: 100%;
+    }
+    .slider-text {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .slider-title h3 {
+        text-align: center;
+        font-size: 35px;
+        letter-spacing: 0;
+        padding-top: 40px;
+    }
+    .slider-description {
+        text-align: center;
+        width: 90%;
+    }
+    .button_on_slider {
+        padding-bottom: 30px;
+    }
+    .button_on_slider button {
+        width: 100%;
+        letter-spacing: 0;
+    }
+
+    /* CAROUSEL*/
+    /*FOOTER*/
+    .footer {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .services:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .services.services a {
+        margin-left: -55px;
+    }
+    .text-services {
+        border-radius: 50px;
+        padding: 30px 60px 30px 40px;
+    }
+
+
+
+
+
+
+    /*FOOTER*/
+
+
+}
+
+
