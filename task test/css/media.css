@@ -101,15 +101,18 @@
     }
     .text-services {
         border-radius: 50px;
-        padding: 30px 60px 30px 40px;
     }
-
-
-
-
-
-
-    /*FOOTER*/
+    
+    @media (max-width: 450px) {
+        .services {
+            margin: 0;
+        }
+        .text-services {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px 10px;
+        }
+    }
 
 
 }
